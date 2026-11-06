@@ -1,0 +1,22 @@
+# Tyl Regor
+$if can_add_new_types()
++/Lotus/Powersuits/Custom/NinjaLeaderSuit|/Lotus/Types/Game/PowerSuits/PlayerPowerSuit
+    LocalizeTag=Tyl Regor
+    LocalizeDescTag=IT'S HAMMER TIIIIIIME
+    MarketMode=MM_VISIBLE
+    Mesh=/Lotus/Characters/Grineer/Marine/GrineerMarine_skel.fbx
+    OverrideMaterials={"",/Lotus/Characters/Grineer/Marine/NinjaLeaderBody,/Lotus/Characters/Grineer/Marine/NinjaLeaderBody}
+    AbilityTypes={/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/SlashDashAbility,/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/SmokeScreenAbility,/Lotus/Powersuits/NpcPowersuits/NpcPowersuitAbilities/PushAbility}
+
++/Lotus/StoreItems/Powersuits/Custom/NinjaLeaderSuit|/Lotus/Types/Game/StoreItemSpecializations/PowerSuitStoreItem
+    ProductCategory=Suits
+    LocalizeTag=Tyl Regor
+    LocalizeDescTag=IT'S HAMMER TIIIIIIME
+    TypeName=/Lotus/Powersuits/Custom/NinjaLeaderSuit
+    ShowInMarket=1
+    RegularPrice=1
+
+>/Lotus/Types/Game/Store/ProductsManifest
+    a|StoreItems|/Lotus/StoreItems/Powersuits/Custom/NinjaLeaderSuit
+$endif
+

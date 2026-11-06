@@ -1,0 +1,90 @@
+{
+  "tree": [
+    {
+      "type": "folder",
+      "name": "Mods",
+      "path": "Mods",
+      "desc": "Custom mods",
+      "children": [
+        {
+          "type": "patch",
+          "name": "Eradicator",
+          "path": "Mods/Eradicator.txt",
+          "desc": "+CC +CD +Elec"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Skins",
+      "path": "Skins",
+      "desc": "Exotic skins",
+      "children": [
+        {
+          "type": "patch",
+          "name": "Empty Helmet",
+          "path": "Skins/Empty Helmet.txt",
+          "desc": "Useful for exotic skins to let heads breathe a bit"
+        },
+        {
+          "type": "patch",
+          "name": "Juno Crewman Skin",
+          "path": "Skins/Juno Crewman Skin.txt",
+          "desc": "Abomination (doesn't fit regular Warframe proportions)"
+        },
+        {
+          "type": "patch",
+          "name": "StalkerSkins",
+          "path": "Skins/StalkerSkins.txt",
+          "desc": "Base Stalker + Shadow Stalker (without Pakal Armor Set)"
+        },
+        {
+          "type": "patch",
+          "name": "Veiled Konzu Skin",
+          "path": "Skins/Veiled Konzu Skin.txt",
+          "desc": "Konzu from The New War (Helmet + Body separated)"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Suits",
+      "path": "Suits",
+      "desc": "New warframes",
+      "children": [
+        {
+          "type": "patch",
+          "name": "Dark Excalibur Prime",
+          "path": "Suits/Dark Excalibur Prime.txt",
+          "desc": "China's version of Excalibur Umbra"
+        },
+        {
+          "type": "patch",
+          "name": "Stalker",
+          "path": "Suits/Stalker.txt",
+          "desc": "Duviri's playable Stalker"
+        },
+        {
+          "type": "patch",
+          "name": "Tyl Regor",
+          "path": "Suits/Tyl Regor.txt",
+          "desc": "IT'S HAMMER TIIIIIIIME! (Missing Decos)"
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "name": "Utilities",
+      "path": "Utilities",
+      "desc": "Misc patches for everything",
+      "children": [
+        {
+          "type": "patch",
+          "name": "ConclaveSyandana",
+          "path": "Utilities/ConclaveSyandana.txt",
+          "desc": "Always shining without completing any mission"
+        }
+      ]
+    }
+  ]
+}

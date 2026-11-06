@@ -1,0 +1,12 @@
+# Stalker
+$if can_add_new_types()
++/Lotus/StoreItems/Powersuits/Stalker/Stalker|/Lotus/Types/Game/StoreItemSpecializations/PowerSuitStoreItem
+    ProductCategory=Suits
+    LocalizeTag=/Lotus/Language/Game/Stalker
+    LocalizeDescTag=/Lotus/Language/Enemies/StalkerDesc
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    TypeName=/Lotus/Powersuits/Stalker/Stalker
+
+>/Lotus/Types/Game/Store/ProductsManifest
+    a|StoreItems|/Lotus/StoreItems/Powersuits/Stalker/Stalker
+$endif

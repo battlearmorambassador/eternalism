@@ -1,0 +1,3 @@
+> /Lotus/Characters/Tenno/Accessory/Scarves/ConclaveNRGCape/ConclaveCapeDeco
+r|/Lotus/Scripts/ConclaveCape.lua|""
+r|InitCapeEffects|""

@@ -1,0 +1,13 @@
+# Dark Excalibur Prime
+$if can_add_new_types()
+>/Lotus/Types/Game/Store/ProductsManifest
+    a|StoreItems|/Lotus/StoreItems/Powersuits/Excalibur/DarkExcalibur
+$endif
+
+>/Lotus/StoreItems/Powersuits/Excalibur/DarkExcalibur
+    ShowInMarket=1
+    RegularPrice=1
+    ExcludeFromManifest=0
+
+>/Lotus/Powersuits/Excalibur/DarkExcalibur
+    MarketMode=MM_VISIBLE

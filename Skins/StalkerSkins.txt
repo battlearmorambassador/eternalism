@@ -1,0 +1,186 @@
+# Stalker skins
+$if can_add_new_types()
+
++/Lotus/Upgrades/Skins/Excalibur/StalkerWeaponSkin|/EE/Types/Game/WeaponSkin
+    TpMeshOverride=/Lotus/Characters/Tenno/Excalibur/ExcaliburBody_skel.fbx
+    TpMaterialOverrides={/Lotus/Characters/Tenno/Excalibur/PBR/StalkerBodyTileable}
+
++/Lotus/Upgrades/Skins/Excalibur/StalkerHelmet|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Stalker Helmet
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    ExcludeFromCodex=0
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    ApplyEnergyColor=1
+    THIRD_PERSON_Attachment={
+        UpgradeAutoChildren={
+            {
+                LocalPosition={0,0,0}
+                LocalRotation={0,0,0,1}
+                BoneName=""
+                Type=/Lotus/Types/Enemies/Stalker/StalkerHelmetDeco
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            }
+        }
+    }
+
++/Lotus/StoreItems/Upgrades/Skins/Excalibur/StalkerHelmet|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Stalker Helmet
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    TypeName=/Lotus/Upgrades/Skins/Excalibur/StalkerHelmet
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    ExcludeFromCodex=0
+
++/Lotus/Upgrades/Skins/Excalibur/StalkerSkin|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Stalker Skin
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    UpgradeSkinOverride=/Lotus/Upgrades/Skins/Excalibur/StalkerWeaponSkin
+    CompatibleSlots={BodySkin}
+    DefaultEnergyColor={222,46,23,255}
+    ApplyEnergyColor=1
+    AllowUglyMode=1
+    ForcedCustomizations={
+        Helmet=/Lotus/Upgrades/Skins/Excalibur/StalkerHelmet
+    }
+    OverrideAttachedFx=1
+    AttachedFxOverrides={}
+
++/Lotus/StoreItems/Upgrades/Skins/Excalibur/StalkerSkin|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Stalker Skin
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    TypeName=/Lotus/Upgrades/Skins/Excalibur/StalkerSkin
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    CompatibleSlots={BodySkin}
+
++/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerWeaponSkin|/EE/Types/Game/WeaponSkin
+    TpMeshOverride=/Lotus/Characters/Tenno/Excalibur/Umbra/ExcaliburUmbraBody_skel.fbx
+    TpMaterialOverrides={/Lotus/Characters/Tenno/Excalibur/StalkerTwo/Stalker2Body}
+
++/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerHelmet|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Shadow Stalker Helmet
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    ExcludeFromCodex=0
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    ApplyEnergyColor=1
+    THIRD_PERSON_Attachment={
+        UpgradeAutoChildren={
+            {
+                LocalPosition={0,0,0}
+                LocalRotation={0,0,0,1}
+                BoneName=""
+                Type=/Lotus/Characters/Tenno/Excalibur/StalkerTwo/StalkerTwoHelmetDeco
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            }
+        }
+    }
+
++/Lotus/StoreItems/Upgrades/Skins/Excalibur/ShadowStalkerHelmet|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Shadow Stalker Helmet
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    TypeName=/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerHelmet
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    ExcludeFromCodex=0
+
++/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerSkin|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Shadow Stalker Skin
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    UpgradeSkinOverride=/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerWeaponSkin
+    CompatibleSlots={BodySkin}
+    DefaultEnergyColor={189,35,10,255}
+    ApplyEnergyColor=1
+    AllowUglyMode=1
+    ForcedCustomizations={
+        Helmet=/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerHelmet
+    }
+    OverrideAttachedFx=1
+    AttachedFxOverrides={
+        {
+            LocalPosition={0,0,0}
+            LocalRotation={0,0,0,1}
+            BoneName=""
+            Type=/Lotus/Characters/Tenno/Excalibur/StalkerTwo/StalkerTwoExtrasDeco
+            Chance=255
+            RelativeToBounds=0
+            Attach=1
+            DestroyWithOwner=1
+            DestroyParentOnDeath=0
+            FadeOutOnDestruction=0
+            Scale=1
+        }
+    }
+
++/Lotus/StoreItems/Upgrades/Skins/Excalibur/ShadowStalkerSkin|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Shadow Stalker Skin
+    Icon=/Lotus/Interface/Icons/StoreIcons/MiscItems/Stalker.png
+    TypeName=/Lotus/Upgrades/Skins/Excalibur/ShadowStalkerSkin
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    CompatibleSlots={BodySkin}
+
+>/Lotus/Types/Game/Store/ProductsManifest
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Excalibur/StalkerSkin
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Excalibur/StalkerHelmet
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Excalibur/ShadowStalkerSkin
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Excalibur/ShadowStalkerHelmet
+$endif
+
+# Shadow Stalker red and orange energy
+>/Lotus/Characters/Tenno/Excalibur/StalkerTwo/Stalker2Body
+    PS:EmissiveTintColorLo={0.2,0,0,1}
+    PS:EmissiveTintColorHi={1,0.088,0.0000049999999,1}
