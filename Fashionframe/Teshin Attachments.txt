@@ -1,0 +1,195 @@
+# Teshin Cloth
+$if can_add_new_types()
++/Lotus/Upgrades/Skins/Custom/ControllableTeshinCapeSyandana|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Outcast Cape
+    Icon=/Lotus/Interface/Icons/Npcs/Teshin.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    CompatibleSlots={Neckwear}
+    THIRD_PERSON_Attachment={
+        UpgradeAutoChildren={
+            {
+                LocalPosition={-0.0099999998,0.029999999,0}
+                LocalRotation={0,0,0.043618999,0.99904799}
+                BoneName=GAME_C1_SPINE5
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastCapeCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            },
+            {
+                LocalPosition={-0.0099999998,0,0}
+                LocalRotation={0,0,0,1}
+                BoneName=GAME_C1_SPINE5
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastLeftFrontFlapSkeletalCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            },
+            {
+                LocalPosition={-0.0099999998,0.0175,0.018999999}
+                LocalRotation={0.214588,0.028251,-0.127432,0.96794403}
+                BoneName=GAME_C1_SPINE5
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastRightFrontFlapSkeletalCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            }
+        }
+    }
+
++/Lotus/StoreItems/Upgrades/Skins/Custom/ControllableTeshinCapeSyandana|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Outcast Cape
+    Icon=/Lotus/Interface/Icons/Npcs/Teshin.png
+    TypeName=/Lotus/Upgrades/Skins/Custom/ControllableTeshinCapeSyandana
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    CompatibleSlots={Neckwear}
+
++/Lotus/Upgrades/Skins/Custom/ControllableTeshinOutcastTabbardSkeletalClothAux|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Outcast Tabbard
+    Icon=/Lotus/Interface/Icons/Npcs/Teshin.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    CompatibleSlots={Face}
+    THIRD_PERSON_Attachment={
+        UpgradeAutoChildren={
+            {
+                LocalPosition={0,0,0}
+                LocalRotation={0,0,0,1}
+                BoneName=GAME_C1_HIP1
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastTabbardSkeletalCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            }
+        }
+    }
+
++/Lotus/StoreItems/Upgrades/Skins/Custom/ControllableTeshinOutcastTabbardSkeletalClothAux|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Outcast Tabbard
+    Icon=/Lotus/Interface/Icons/Npcs/Teshin.png
+    TypeName=/Lotus/Upgrades/Skins/Custom/ControllableTeshinOutcastTabbardSkeletalClothAux
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    CompatibleSlots={Face}
+
++/Lotus/Upgrades/Skins/Custom/ControllableTeshinAllAux|/Lotus/Types/Game/LotusWarframeCustomization
+    LocalizeTag=Teshin Cloth
+    Icon=/Lotus/Interface/Icons/Npcs/Teshin.png
+    AlwaysAvailable=1
+    AvailableOnPvp=1
+    MarketMode=MM_VISIBLE
+    RegularPrice=1
+    Weapon=/Lotus/Types/Game/PowerSuit
+    GenericCompatible=/Lotus/Types/Game/PowerSuit
+    CompatibleSlots={Face}
+    THIRD_PERSON_Attachment={
+        UpgradeAutoChildren={
+            {
+                LocalPosition={-0.0099999998,0.029999999,0}
+                LocalRotation={0,0,0.043618999,0.99904799}
+                BoneName=GAME_C1_SPINE5
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastCapeCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            },
+            {
+                LocalPosition={-0.0099999998,0,0}
+                LocalRotation={0,0,0,1}
+                BoneName=GAME_C1_SPINE5
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastLeftFrontFlapSkeletalCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            },
+            {
+                LocalPosition={-0.0099999998,0.0175,0.018999999}
+                LocalRotation={0.214588,0.028251,-0.127432,0.96794403}
+                BoneName=GAME_C1_SPINE5
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastRightFrontFlapSkeletalCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            },
+            {
+                LocalPosition={0,0,0}
+                LocalRotation={0,0,0,1}
+                BoneName=GAME_C1_HIP1
+                Type=/Lotus/Characters/Tenno/Outcast/Cloth/OutcastTabbardSkeletalCloth
+                Chance=255
+                RelativeToBounds=0
+                Attach=1
+                DestroyWithOwner=1
+                DestroyParentOnDeath=0
+                FadeOutOnDestruction=0
+                Scale=1
+            }
+        }
+    }
+
++/Lotus/StoreItems/Upgrades/Skins/Custom/ControllableTeshinAllAux|/Lotus/Types/Game/StoreItemSpecializations/LotusSuitCustomizationStoreItem
+    ProductCategory=WeaponSkins
+    LocalizeTag=Teshin Cloth
+    Icon=/Lotus/Interface/Icons/Npcs/Teshin.png
+    TypeName=/Lotus/Upgrades/Skins/Custom/ControllableTeshinAllAux
+    Compatible=/Lotus/Types/Game/PowerSuit
+    AlwaysAvailable=1
+    ShowInMarket=1
+    RegularPrice=1
+    Giftable=0
+    AvailableOnPvp=1
+    CompatibleSlots={Face}
+
+>/Lotus/Types/Game/Store/ProductsManifest
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Custom/ControllableTeshinCapeSyandana
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Custom/ControllableTeshinOutcastTabbardSkeletalClothAux
+    a|StoreItems|/Lotus/StoreItems/Upgrades/Skins/Custom/ControllableTeshinAllAux
+$endif

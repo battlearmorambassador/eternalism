@@ -2,6 +2,26 @@
   "tree": [
     {
       "type": "folder",
+      "name": "Fashionframe",
+      "path": "Fashionframe",
+      "desc": "If you want to look cool",
+      "children": [
+        {
+          "type": "patch",
+          "name": "ConclaveSyandana",
+          "path": "Fashionframe/ConclaveSyandana.txt",
+          "desc": "Always shining without completing any mission"
+        },
+        {
+          "type": "patch",
+          "name": "Teshin Attachments",
+          "path": "Fashionframe/Teshin Attachments.txt",
+          "desc": "Syandana, auxiliary Tabbard and Auxiliary Clothes (compiles both items)"
+        }
+      ]
+    },
+    {
+      "type": "folder",
       "name": "Mods",
       "path": "Mods",
       "desc": "Custom mods",
@@ -69,20 +89,6 @@
           "name": "Tyl Regor",
           "path": "Suits/Tyl Regor.txt",
           "desc": "IT'S HAMMER TIIIIIIIME! (Missing Decos)"
-        }
-      ]
-    },
-    {
-      "type": "folder",
-      "name": "Utilities",
-      "path": "Utilities",
-      "desc": "Misc patches for everything",
-      "children": [
-        {
-          "type": "patch",
-          "name": "ConclaveSyandana",
-          "path": "Utilities/ConclaveSyandana.txt",
-          "desc": "Always shining without completing any mission"
         }
       ]
     }
